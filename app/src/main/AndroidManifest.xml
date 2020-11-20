@@ -16,7 +16,9 @@
         android:theme="@style/Theme.IDI_HBC">
         <activity android:name=".ProfileActivity"></activity>
         <activity android:name=".ForgotPasswordActivity" />
-        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".CreateAccountActivity"
+            android:label="Create Account"
+            android:parentActivityName=".LoginActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
